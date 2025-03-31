@@ -14,7 +14,49 @@
     <div class="sidebar">
         <div class="title">AnotherVerse</div>
     </div>
-    <div class="form container">    </div>
+    <div class="form container">
+           <div class="intro">This form is made to practice what I've learned till now about forms, pseudo- classes, pseudo- elements and some other css properties.
+            It doesn't create account in AnotherVerse for now. Feel free to reach out for any suggestions and don't forget to drink water!
+            <p style="text-align: right; padding-right: 20px;">~Developer Ogin:)</p>
+           </div>
+            <form action="#">
+                <div class="form-body">
+                    <div class="lets-do-this">Let's do this!</div>
+                    <br>
+                    <div class="form-fields">
+                        <div class="form col">
+                            <label for="first name">First Name</label>
+                            <input type="text" id="first name" placeholder="Thor">
+                        </div>
+                        <div class="form col">
+                            <label for="last name">Last Name</label>
+                            <input type="text" id="last name" placeholder="Odinson">
+                        </div>
+                        <div class="form col">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Thor">
+                        </div>
+                        <div class="form col">
+                            <label for="phone">Phone Number</label>
+                            <input type="number" id="phone">
+                        </div>
+                        <div class="form col">
+                            <label for="pwd">Password</label>
+                            <input type="password" id="pwd" pattern="(@\w{5}[\-](\d{4})?)" required>
+                        </div>
+                        <div class="form col">
+                            <label for="confirm">Confirm Password</label>
+                            <input type="password" id="confirm" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="createAccount">
+                    <button>Create Account</button>
+                </div>
+                
+            </form>
+           <div class="login">Already have an account? <a href="#">Log in</a></div>
+    </div>
 </div>
 </body>
 </html>
