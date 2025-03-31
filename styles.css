@@ -1,0 +1,29 @@
+.almendra-display-regular {
+    font-family: "Almendra Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    
+  }
+  .sidebar{
+    background: url('StockCake-Urban\ Titan\ Rising_1743400116.jpg');
+    background-size: cover;
+    width: 35vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  .title{
+    background-color: rgba(121, 93, 93, 0.323);
+    position: relative;
+    top:30%;
+    text-align: center ;
+    font-family: "Almendra Display";
+    font-weight: 900;
+    color: azure;
+    font-size:2.5rem;
+  }
